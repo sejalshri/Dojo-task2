@@ -1,6 +1,7 @@
-*{
+body{
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 .navbar{
 	display: flex;
@@ -13,7 +14,7 @@
 	display: flex;
 }
 .nav_item{
-	padding: 20px;
+	padding: 10px;
 }
 .logo{
 	padding-left: 10px;
