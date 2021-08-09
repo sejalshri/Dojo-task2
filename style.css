@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 .navbar{
 	display: flex;
@@ -51,7 +50,11 @@
 .about p{
 	width: 70%;
 }
-
+@media (max-width: 600px){
+	.about p{
+		width: 90%
+	}
+}
 .web_development{
 	padding: 30px 10px;
 }
@@ -60,7 +63,6 @@
 }
 .cards{
 	display: flex;
-	height: 400px;
 }
 #card1,#card2,#card3{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
