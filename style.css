@@ -197,7 +197,7 @@ footer{
 	border-bottom: 1px solid white;
 }
 
-i.fa {
+.upper i.fa {
   display: inline-block;
   border-radius: 60px;
   color:black;
