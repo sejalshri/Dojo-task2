@@ -18,8 +18,8 @@ body{
 }
 @media (max-width: 600px){
 	.nav_item{
-	padding: 5px;
-		}
+		padding: 5px;
+	}
 }
 .logo{
 	padding-left: 10px;
@@ -58,7 +58,7 @@ body{
 }
 @media (max-width: 600px){
 	.about p{
-		width: 90%;
+		width: 100%;
 	}
 }
 .web_development{
