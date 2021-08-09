@@ -150,9 +150,14 @@ body{
 	display: flex;
 	flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 20px;
+    margin: auto;
     padding: 20px;
-
+    width: 40%;
+    margin-bottom: 20px;
+}
+.test3{
+	width: 40%;
+	margin: auto;
 }
 .author{
 	display: flex;
@@ -160,6 +165,7 @@ body{
 }
 .testimonials{
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .test3{
@@ -176,6 +182,7 @@ body{
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
+	margin: 10px;
 }
 @media(max-width: 600px){
 	.testimonials{
