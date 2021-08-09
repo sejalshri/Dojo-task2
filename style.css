@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    overflow-x: hidden;
 }
 .navbar{
 	display: flex;
@@ -15,6 +15,11 @@ body{
 }
 .nav_item{
 	padding: 10px;
+}
+@media (max-width: 600px){
+	.nav_item{
+	padding: 5px;
+		}
 }
 .logo{
 	padding-left: 10px;
@@ -53,7 +58,7 @@ body{
 }
 @media (max-width: 600px){
 	.about p{
-		width: 90%
+		width: 90%;
 	}
 }
 .web_development{
@@ -84,7 +89,21 @@ body{
 	color: white;
 	padding: 30px 10px;
 }
-
+@media (min-width: 601px){
+	.row1{
+		display: flex;
+		flex-direction: column;
+	}
+	.team_item{
+		display: flex;
+		flex-direction: row;
+		padding: 10px;
+	}
+	.team_item:nth-child(odd){
+		flex-direction: row-reverse;
+		text-align: right;
+	}
+}
 @media (min-width: 768px) {
 	.row1{
 		display: flex;
@@ -112,21 +131,7 @@ body{
 	}
 }
 
-@media (min-width: 601px) and (max-width: 767px) {
-	.row1{
-		display: flex;
-		flex-direction: column;
-	}
-	.team_item{
-		display: flex;
-		flex-direction: row;
-		padding: 10px;
-	}
-	.team_item:nth-child(odd){
-		flex-direction: row-reverse;
-		text-align: right;
-	}
-}
+
 
 
 
