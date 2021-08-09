@@ -58,6 +58,7 @@ body{
 }
 .about p{
 	width: 70%;
+	text-align: center;
 }
 @media (max-width: 600px){
 	.about p{
