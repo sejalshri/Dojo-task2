@@ -189,10 +189,6 @@ body{
 	.testimonials{
 		flex-direction: column;
 	}
-	.test3{
-		width: 100vw;
-		margin: 20px 20px 20px 20px;
-	}
 }
 
 footer{
